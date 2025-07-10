@@ -1,0 +1,153 @@
+
+
+
+body.dark-mode {
+  --primary-color  : #c07f50;
+  --secondary-color: #f9f9fa;
+  --text-dark      : #fafafa;
+  --text-light     : #fafafa;
+  --white          : #1a1e21;
+  --light-gray     : #fafafa;
+  --border-color   : #fafafa;
+  background-color : #1a1e21;
+  color            : var(--text-light);
+}
+
+body.dark-mode .sidebar {
+  background-color: #111;
+  border-color    : #fafafa;
+}
+
+body.dark-mode .nav-links li a {
+  color: #fdfdfd;
+}
+
+body.dark-mode .nav-links li a.active,
+body.dark-mode .nav-links li a:hover {
+  color: var(--primary-color);
+}
+
+body.dark-mode .hero-card,
+body.dark-mode .service-card,
+body.dark-mode .blog-card,
+body.dark-mode .contact-section,
+body.dark-mode .about-section,
+body.dark-mode .work-section,
+body.dark-mode .services-section {
+  background-color: #1e1e1e;
+  color: var(--text-light);
+}
+
+body.dark-mode .hero-card {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .btn-cv,
+body.dark-mode .btn-submit {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+body.dark-mode .btn-cv:hover,
+body.dark-mode .btn-submit:hover {
+  background-color: #8b5c3e;
+}
+
+body.dark-mode .sidebar-footer {
+  color: #ffffff;
+}
+body.dark-mode .hero-card h1,
+body.dark-mode .hero-card p,
+body.dark-mode .hero-card .contact-info li {
+  color: #ffffff;
+}
+/* About Section */
+body.dark-mode .about-section h2,
+body.dark-mode .about-section p,
+body.dark-mode .about-section .info-grid li,
+body.dark-mode .about-section .info-grid li strong {
+  color: #ffffff;
+}
+
+/* Contact Section */
+body.dark-mode .contact-section h2,
+body.dark-mode .contact-section h3,
+body.dark-mode .contact-section p,
+body.dark-mode .contact-section li,
+body.dark-mode .contact-section label,
+body.dark-mode .contact-section input,
+body.dark-mode .contact-section textarea {
+  color: #ffffff;
+  border-color: #555; /* لحواف الحقول */
+}
+
+/* تغيير لون Placeholders */
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #ccc;
+}
+/* About Info Labels – Dark Mode */
+body.dark-mode .about-section .info-grid li strong {
+  color: #c07f50; /* اللون البرتقالي */
+}
+/* Services Section - Dark Mode */
+body.dark-mode .services-section .service-card {
+  background-color: #3f3f3f; 
+  color: #fff;
+}
+body.dark-mode .services-section .service-card:hover {
+  background-color: #8b5c3e; 
+  color: #fff;
+}
+
+body.dark-mode .services-section .service-card h3,
+body.dark-mode .services-section .service-card p {
+  color: #ffffff;
+}
+
+body.dark-mode .services-section .service-card .number {
+  -webkit-text-stroke: 1px #c07f50;
+  color: transparent;
+}
+
+/* Services Section Title - Dark Mode */
+body.dark-mode .services-section .section-header h2 {
+  color: #ffffff;
+}
+/* Work Section Titles - Dark Mode */
+body.dark-mode .work-section .section-header p,
+body.dark-mode .work-section .section-header h2 {
+  color: #ffffff;
+}
+
+/* Work Grid Background - Dark Mode */
+body.dark-mode .work-section .work-grid {
+  background-color: transparent;
+}
+body.dark-mode .blog-section {
+  background-color: transparent;
+}
+body.dark-mode .blog-section .section-header h2 {
+  color: #fff;
+}
+/* الوصف */
+body.dark-mode .contact-section .section-description {
+  color: #fff;
+}
+
+/* عناصر قائمة التواصل */
+body.dark-mode .contact-section .contact-info li {
+  color: #fff;
+}
+
+/* مدخلات النموذج (Labels) */
+body.dark-mode .contact-section .contact-form label {
+  color: #fff;
+}
+
+/* النص داخل الحقول عند الكتابة */
+body.dark-mode .contact-section .contact-form input,
+body.dark-mode .contact-section .contact-form textarea {
+  color: #fff;
+  border-color: #c07f50; /* اختياري: لتأكيد اللون البرتقالي */
+}
